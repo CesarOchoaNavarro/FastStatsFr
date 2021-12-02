@@ -1,0 +1,68 @@
+#searchBody{
+    height: 90vh;
+}
+
+#cContainer{
+    margin: 10px auto 0 auto;
+    position: relative;
+}
+
+.mySearch {
+    display: flex;
+    justify-Content: center;
+}
+
+.searchTable{
+    display: flex;
+    justify-content: center;
+
+}
+
+.playerTable{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border-collapse: collapse;
+    background-color: #f3f3f3e0;
+    margin: 10px auto 0 auto;
+    height: auto;
+    width: 85rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 35%);
+}
+
+#imageId img{
+    display: flex;
+    height: 15rem;
+}
+
+.searchThead thead{
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+.searchThead thead tr:not(img){
+    padding-top: 4px;
+    padding: 15px 15px;
+}
+
+#statBody td{
+    background-color: white;
+    padding: 8px;
+}
+
+.playerTable > tbody{
+}
+
+.playerTable thead td{
+    padding: 1.5rem .8rem 2.5px 1rem;
+    font-size: large;
+}
+
+#imageId{
+    border-top: none;
+}
+
+.playerTable table b{
+    padding-left: 20px;
+}

@@ -1,0 +1,97 @@
+.myCompare {
+    display: flex;
+    text-align: center;
+    justify-Content: center;
+    align-Items: top;
+}
+
+.compareContainer {
+    margin: 25px 0;
+}
+
+
+#compare1 {
+    padding: 10px;
+    margin: 5px;
+    width: 97%;
+    text-align: center;
+    justify-content: center;
+}
+
+#compare2 {
+    padding: 10px;
+    margin: 5px;
+    width: 97%;
+    text-align: center;
+    justify-content: center;
+}
+
+#compare_btn {
+    padding: 10px;
+    margin: -4px;
+    width: 97%;
+}
+
+#compare_btn2 {
+    padding: 10px;
+    margin: -4px;
+    width: 97%;
+    display: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table.myTable {
+    border: 1px solid;
+    border-collapse: collapse;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+}
+
+table.myTable thead tr {
+    background-color: #494953;
+    color: white;
+}   
+
+table.myTable tbody tr:nth-of-type(even) {
+    background-color: white;
+}   
+table.myTable tbody tr:nth-of-type(odd) {
+    background-color: #f3f3f3e0;
+}
+
+
+table.mainTable {
+    border: none;
+    border-collapse: collapse;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#textName {
+    display: flex;
+    position: relative;
+}
+
+.myTable th, .myTable td {
+    border: 1px solid black;
+    text-align: center;
+    width: auto;
+    padding: 12px 15px;
+    font-weight: bold;
+}
+
+.mainTable th, .mainTable td {
+    border: none;
+    text-align: center;
+    width: 50%;
+}
